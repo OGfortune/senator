@@ -1,0 +1,155 @@
+.header{
+  background-image: url('sen.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:20em;
+ 
+}
+
+
+.header1{
+        font-size: xx-large;
+        text-align: center;
+        background-color: #0a2458;
+        color: white;
+        margin-top: 0;
+}
+
+.header1 h1{ margin: 0;}
+
+
+.information {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin:0;
+}
+
+.leaders {
+  width: 50%;
+  text-decoration: dotted;
+  padding-bottom: 32px;
+}
+
+#senators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container {
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(59, 98, 165, 0.9);
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.modal {
+  width: 500px;
+  
+  z-index: 3;
+  background-color: #0a2458;
+  background-image: url('seal.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 31px;
+  margin: 0 auto 0 auto;
+  border-radius: 4px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+ }
+
+.card {
+  width: 30%;
+  /* border: 1px solid grey; */
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 5px 10px 10px #888888;
+  background-color: #0a2458;
+  color: white;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.inputs {
+  width: 41%;
+  margin: 0 auto 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #0a2458;
+}
+.title {
+  text-align: center;
+}
+
+.second {
+  background-color: #0a2458;
+  color: white;
+  padding: 10px;
+  height: 500px;
+}
+
+.second > h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.view {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.view:hover {
+  color: black;
+}
+
+.titleContainer {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-around;
+}
+
+#count > p {
+  font-size: 80px;
+  margin: 0px;
+}
+
+a{
+    color:#dfe6e9
+}
+
+.links{
+    margin-top: 10px;
+    padding-bottom:10px
+}
+
+.footer{background-color: #0a2458;
+        text-align: center;
+        color: white;
+      border: 30px;}
+
+
+
+.img {width: 100%;
+object-fit: cover;}
